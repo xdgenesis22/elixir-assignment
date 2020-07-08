@@ -42,7 +42,11 @@ defmodule Assignment.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:absinthe, "~> 1.4"},
-      {:tesla, "~> 1.3"}
+      {:absinthe_plug, "~> 1.4.0"},
+      {:tesla, "~> 1.3"},
+      {:poison, "~> 3.1"},
+      {:inflex, "~> 1.10.0"},
+      {:timex, "~> 3.1"},
     ]
   end
 
